@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b3">
+    <folder id="0">
+        <file id="0" name="goblinTorso.png" width="92" height="103"/>
+        <file id="1" name="goblinLeg.png" width="41" height="63"/>
+        <file id="2" name="goblinArm.png" width="32" height="88"/>
+        <file id="3" name="goblinHead.png" width="158" height="143"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                </key>
+                <key id="2" time="999">
+                    <object_ref id="0" timeline="3" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="goblinTorso">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-45" y="155" angle="0"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="0" file="0" x="-45" y="155" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="goblinLeg">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="6" y="56" angle="0"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="0" file="1" x="6" y="56" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="goblinLeg_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-46" y="56" angle="0"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="0" file="1" x="-46" y="56" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="goblinArm">
+                <key id="0">
+                    <object folder="0" file="2" x="41" y="108" angle="0"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <object folder="0" file="2" x="24" y="97" angle="64.653824" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="999" spin="-1">
+                    <object folder="0" file="2" x="40.966" y="107.978" angle="0.129308"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="goblinArm_000">
+                <key id="0" spin="-1">
+                    <object folder="0" file="2" x="-71" y="109" angle="0"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="2" x="-46" y="124" angle="308.367485" scale_y="1"/>
+                </key>
+                <key id="2" time="999" spin="0">
+                    <object folder="0" file="2" x="-71" y="109" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="goblinHead">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-75" y="270" angle="0"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="0" file="3" x="-75" y="270" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
